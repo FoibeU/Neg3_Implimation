@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+# Define a function that displays information about a selected language
+def display_language_info(language):
+  print(language_info[language])
