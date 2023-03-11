@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+ """Define a function that searches for programming languages"""
+def search_languages(keyword):
+  results = []
+  for language in languages:
+    if keyword.lower() in language.lower():
+       results.append(language)
+  return (results)
