@@ -1,4 +1,14 @@
-#!/usr/bin/pythn3
+#!/usr/bin/pythn3c
+# Define a dictionary of information about each language
+language_info = {
+    "Python": "Python is a high-level programming language...",
+    "Java": "Java is a popular programming language...",
+    "JavaScript": "JavaScript is a programming language...",
+    "C++": "C++ is a general-purpose programming language...",
+    "Ruby": "Ruby is a dynamic, object-oriented programming language...",
+    "Swift": "Swift is a powerful and intuitive programming language..."
+}
+
 def beginner():
     print("You will get the following subjects")
     print("Introductions to CSS")
